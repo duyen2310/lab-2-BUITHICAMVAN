@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "Windows - MinGW",
+            "intelliSenseMode": "${default}",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/src"
+            ]
+        },
+        {
+            "name": "Linux - GCC",
+            "intelliSenseMode": "${default}",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/src"
+            ]
+        },
+        {
+            "name": "OSX - Clang",
+            "intelliSenseMode": "${default}",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/src"
+            ]
+        }
+    ],
+    "version": 4
+}
