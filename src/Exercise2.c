@@ -20,6 +20,26 @@ int main(int argc, char *argv[]) {
 	int result;
 	//Your codes here
 	
-	printf("%d", result);
-	return 0;
+	int i,k;
+
+    result=1;
+    if(n%2==0)
+        {
+            for( i=2; i<=n; i+=2)
+                {
+                    result *=i;
+        }
+    }
+    else
+    {
+        for( k=3 ;k<=n;k+=2)
+        {
+            result *=k;
+        }
+    }
+        
+    
+    printf("%d", result);
+    return 0;
 }
+
