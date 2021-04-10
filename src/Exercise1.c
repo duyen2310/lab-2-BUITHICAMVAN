@@ -20,6 +20,21 @@ int main(int argc, char *argv[]) {
 	int result;
 	//Your codes here
 	
-	printf("%d", result);
-	return 0;
+	int a,b,c;
+    a=15000;
+    b=0;
+    c=0;
+    if(distance<=30)
+        b=((distance-2)*4)*2000;
+    else
+    {
+            b=28*8000;
+            c=(distance-30)*5000;   
+    }   
+    result=a+b+c;
+    printf("%d",result);
+    return 0;
 }
+
+
+
